@@ -30,3 +30,9 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## Answer
+
+In terms of the number of comparisons, we have $\Theta(n^2)$ since we are putting $n$ elements into place, and each time through the primary loop involves making $n$ comparisons to find the greatest unsorted element, so $n^2$ comparisons total. 
+
+In terms of the number of flips, we have $\Theta(n)$ since we make two flips for each element to put it into its correct position, and $2n\in\Theta(n)$
+
